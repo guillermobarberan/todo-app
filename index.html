@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Mis Tareas</h1>
+      <span class="counter" id="counter">0 pendientes</span>
+    </header>
+
+    <div class="input-area">
+      <input
+        type="text"
+        id="task-input"
+        placeholder="Escribe una nueva tarea..."
+        autocomplete="off"
+      />
+      <button id="add-btn">Agregar</button>
+    </div>
+
+    <ul id="task-list"></ul>
+
+    <p class="empty-msg" id="empty-msg">No hay tareas aún. ¡Agrega una!</p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
